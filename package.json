@@ -1,11 +1,28 @@
 {
   "name": "mgb",
   "version": "1.0.0",
-  "description": "My Gaming Box",
-  "main": "index.js",
+  "description": "",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nadium/mgb.git"
+  },
+  "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nadium/mgb/issues"
+  },
+  "homepage": "https://github.com/nadium/mgb#readme",
+  "devDependencies": {
+    "webpack": "^5.6.0",
+    "webpack-cli": "^4.2.0"
+  },
+  "dependencies": {
+    "vue": "^3.0.2"
+  }
 }
